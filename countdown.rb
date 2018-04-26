@@ -2,8 +2,8 @@ require 'pry'
 #write your code here
 #integer = 10
 def countdown(integer)
+  binding.pry
   while integer > 0
-    binding.pry
     integer -= 1
     puts "#{integer} SECOND(S)!"
   end
