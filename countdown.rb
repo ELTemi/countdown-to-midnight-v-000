@@ -12,4 +12,5 @@ end
 
 def countdown_with_sleep(integer)
   binding.pry
+  sleep(1)
 end
