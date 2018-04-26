@@ -2,10 +2,10 @@ require 'pry'
 #write your code here
 #integer = 10
 def countdown(integer)
-  binding.pry
   while integer > 0
-    integer -= 1
+    binding.pry
     puts "#{integer} SECOND(S)!"
+    integer -= 1
   end
   "HAPPY NEW YEAR!"
 end
