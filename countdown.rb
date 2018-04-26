@@ -3,7 +3,7 @@ require 'pry'
 #integer = 10
 def countdown(integer)
   while integer > 0
-    binding.pry
+
     puts "#{integer} SECOND(S)!"
     integer -= 1
   end
@@ -11,4 +11,5 @@ def countdown(integer)
 end
 
 def countdown_with_sleep(integer)
+  binding.pry
 end
