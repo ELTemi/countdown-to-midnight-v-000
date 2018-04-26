@@ -9,8 +9,3 @@ def countdown(integer)
   "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(runtime)
-  while (runtime.real.to_i >= 5)
-    true
-  end
-end
