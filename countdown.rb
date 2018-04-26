@@ -12,5 +12,7 @@ end
 
 def countdown_with_sleep(integer)
   binding.pry
-  sleep(1)
+  while integer > 0 
+    puts "#{integer} SECOND(S)!"
+    sleep(1)
 end
